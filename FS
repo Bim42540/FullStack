@@ -1,1 +1,29 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ <h1>You're in a good company</h1>
+ <p>Lorem ipsum dolor, sit amet consectetur <a href="http://www.google.lt">GOOGLE</a> adipisicing elit. Quae voluptate a natus dicta corrupti atque repudiandae magni fugit doloribus nesciunt!</p>
+ <ul>
+     <li>Lorem ipsum</li>
+     <li>Lorem ipsum</li>
+     <li>Lorem ipsum</li>
+ </ul>
+ <ol>
+     <li>Lorem ipsum</li>
+     <li>Lorem ipsum</li>
+     <li>Lorem ipsum</li>
+ </ol>
+ <img src="/garden.png" alt="garden">
+ <video width="420" height="315" controls>
+    <source src="pimpam.mp4" type="video/mp4">
+ </video>
+
+</body>
+</html>
