@@ -1,0 +1,124 @@
+/* 
+-- Menu font-family: Lato, sans-serif;
+-- Menu font color: #151515
+-- Menu button background-color: #b6b6b6
+*/
+
+/* YOUR CODE HERE ir beje sėkmės*/
+
+body {
+    margin: 0;
+}
+
+.container {
+    box-sizing: border-box;
+    height: 97vh;
+    /* width: 97%; */
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding-top: 30px; */
+    height: 10vh;
+    width: 100%;
+}
+
+.headerLogoDiv {
+    display: inline-block;
+    height: auto;
+   
+}
+
+.headerLogo {
+    height: auto;
+    width: 50%;
+}
+
+.menuIcon {
+    margin-right: 10px;
+}
+
+.menuIconIn {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
+
+.images {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.imagesIn {
+    object-fit: cover;
+    height: 40vh;
+    width: 44%;
+    padding-bottom: 60px;
+
+}
+
+.menu {
+    display: none;
+}
+
+@media only screen and (min-width: 768px) {
+
+    .menuIcon{
+        display: none;
+    }
+
+    .headerLogoDiv {
+        object-fit: none;
+        width: 30%;
+    }
+
+    a {
+        text-decoration: none;
+        font-family: Lato, sans-serif;
+        color: darkgrey;
+        text-transform: uppercase;
+    }
+
+    .menu {
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        color: darkgrey;
+    }
+
+    .menuSizing {
+        padding-left: 7px;
+    }
+
+    button {
+        border: none;
+        padding: 20px;
+        background-color: #b6b6b6;
+        color: white;
+    }
+
+    .imagesIn {
+        width: 30%;
+    }
+
+    header {
+        height: 15vh;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+
+    .imagesIn {
+        object-fit: cover;
+        width: 18%;
+        height: 34vh;
+    }
+
+}
