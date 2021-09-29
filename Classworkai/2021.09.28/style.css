@@ -1,0 +1,112 @@
+.container {
+    height: 97vh;
+    margin: 0;
+    padding: 0;
+}
+
+.orangeBlocks {
+    height: 20%;
+}
+
+.orangeBlock {
+    height: 40%;
+    margin-bottom: 5px;
+    background-color: orange;
+}
+
+.yellowBlock {
+    background-color: yellow;
+    margin-bottom: 20px;
+    height: 18%;
+}
+
+.blueBlocks {
+    height: 50%;
+}
+
+.blueBlock {
+    height: 30%;
+    margin-bottom: 5px;
+    background-color: blue;
+}
+
+.greyBlocks {
+    margin-top: 0;
+    height: 10%;
+}
+.greyBlock {
+    height: 100%;
+    background-color: grey;
+}
+
+.greyBlock-none {
+    display: none;
+}
+
+@media only screen and (min-width: 768px) {
+
+    .orangeBlocks {
+        height: 18%;
+    }
+
+    .yellowBlock {
+        height: 25%;
+    }
+
+    .blueBlocks {
+        height: 26%;
+    }
+
+    .greyBlocks {
+        height: 25%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 2% 2%;
+    }
+
+    .greyBlock-none {
+        display: inline-block;
+    }
+      
+   }
+
+   @media only screen and (min-width: 1024px) {
+
+    .container {
+        width: 95%;
+        margin: auto;
+    }
+
+    .orangeBlocks {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2%;
+        height: 15%;
+    }
+
+    .orangeBlock {
+        height: 80%;
+    }
+
+    .yellowBlock {
+        height: 35%;
+    }
+
+    .blueBlocks {
+        height: 25%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;  
+        column-gap: 2%;
+    }
+
+    .blueBlock {
+        height: 90%;
+    }
+
+    .greyBlocks {
+        height: 30%;  
+        grid-template-columns: 1fr 1fr 1fr 1fr;          
+    }
+
+   }
