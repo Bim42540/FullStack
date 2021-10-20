@@ -1,0 +1,56 @@
+<!-- Sukurkite HTML dokumentą su lentele (table) ir forma (form). Dokumentu turi būti žemiau aptartos žymos (angl. tags) ir jų atributai.
+
+Suraskite ir konsolėje atvaizduokite:
+
+Lentelę su id = "age-table".
+	
+Pirmasis <td> toje lentelėje (su id “age”).
+	
+Visus <label> elementus lentelės viduje (jų turėtų būti 3).
+	
+Pirmasis įvestį (<input>) į formą.
+	
+Paskutinę įvestį (<input>) į formą. -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table id="age-table">
+        <tr>
+          <th>Company</th>
+          <th>Contact</th>
+          <th>Country</th>
+        </tr>
+        <tr>
+          <td id="age">5</td>
+          <td>19</td>
+          <td>29</td>
+        </tr>
+        <tr>
+          <td>Centro comercial Moctezuma</td>
+          <td>Francisco Chang</td>
+          <td>Mexico</td>
+        </tr>
+      </table>
+
+
+      <form>
+        <input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="html">HTML</label><br>
+        <input type="radio" id="css" name="fav_language" value="CSS">
+        <label for="css">CSS</label><br>
+        <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+        <label for="javascript">JavaScript</label>
+      </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
